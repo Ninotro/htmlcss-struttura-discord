@@ -4,3 +4,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* regole di debug */
+
+
+
+
+
+header {
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 50px;
+    background-color: blue; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+
+.logo {
+    background-color: brown;
+    width: 10%;
+   
+
+    
+    
+}
+
+nav {
+    background-color: burlywood;
+    padding-left: 10px;
+    width: 40%;
+    
+    
+}
+
+nav li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+li { height: 20px;
+    background-color: yellow;
+   width: 35px;
+    display: inline-block;
+    border:solid black 1px;
+    
+
+
+}
+
+.button {
+    
+    background-color: aqua;
+   
+} 
+
+#jumbotron {
+    background-color: lawngreen;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+#title-jumbotron {
+    padding-bottom: 30px;
+}
