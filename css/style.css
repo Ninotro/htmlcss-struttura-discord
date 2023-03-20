@@ -130,3 +130,23 @@ Footer {
     background-color: black;
     height: 250px;
 }
+
+#structure-footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 3px solid yellow; 
+    color: white;   
+    display: flex;
+    justify-content: space-between;
+}
+.list-footer {
+    padding-bottom: 10px;
+}
+
+#sottofooter{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
